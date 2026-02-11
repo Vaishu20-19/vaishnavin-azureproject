@@ -1,0 +1,9 @@
+{
+	"name": "dfv1-azureproject",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "921b0f9b-fe57-4385-a087-40879c850ea9",
+		"tenantId": "a693d038-9007-4194-90a2-f028d6c3307b"
+	}
+}
