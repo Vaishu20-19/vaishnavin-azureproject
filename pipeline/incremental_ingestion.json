@@ -60,7 +60,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronzev1",
-							"folder": "' '",
+							"folder": "cdc",
 							"file": "cdc.json"
 						}
 					},
