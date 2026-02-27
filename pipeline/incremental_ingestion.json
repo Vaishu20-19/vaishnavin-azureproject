@@ -131,7 +131,7 @@
 				}
 			},
 			{
-				"name": "If Condition1",
+				"name": "IFIncrementalData",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
@@ -143,6 +143,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@greater(activity('AzureSQLtolake').output.dataRead,0)",
+						"type": "Expression"
+					},
 					"ifTrueActivities": [
 						{
 							"name": "max_cdc",
