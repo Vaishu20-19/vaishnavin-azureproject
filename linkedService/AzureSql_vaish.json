@@ -1,0 +1,17 @@
+{
+	"name": "AzureSql_vaish",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "azurev1projectserver.database.windows.net",
+			"database": "azureprojectdbvaish",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminvaish",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFEQUI5NzM4LTE3RDMtNDM3NS1CNUVGLThENDMyMEQ4ODI4N182MmQyOWMwMy1iODlmLTRkZjYtODc4Ny0wOGExNmMyNGI3MjUiDQp9"
+		}
+	}
+}

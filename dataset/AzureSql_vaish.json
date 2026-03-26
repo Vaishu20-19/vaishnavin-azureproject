@@ -1,0 +1,12 @@
+{
+	"name": "AzureSql_vaish",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSql_vaish",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
